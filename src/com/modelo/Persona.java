@@ -56,7 +56,7 @@ public class Persona implements Serializable{
 		return "Persona [id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", fechaNacimiento="
 				+ fechaNacimiento + ", numeroCelular=" + numeroCelular + "]";
 	}
-	
+	//
 	
 
 }
