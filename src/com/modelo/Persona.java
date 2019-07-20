@@ -51,6 +51,11 @@ public class Persona implements Serializable{
 	public void setNumeroCelular(long numeroCelular) {
 		this.numeroCelular = numeroCelular;
 	}
+	@Override
+	public String toString() {
+		return "Persona [id=" + id + ", nombre=" + nombre + ", apellidos=" + apellidos + ", fechaNacimiento="
+				+ fechaNacimiento + ", numeroCelular=" + numeroCelular + "]";
+	}
 	
 	
 
